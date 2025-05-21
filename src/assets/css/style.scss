@@ -423,7 +423,7 @@ Navbar Area CSS
             .others-options {
                 .optional-btn {
                     color: $black-color;
-    
+
                     i {
                         color: $black-color;
                     }
@@ -446,7 +446,7 @@ Navbar Area CSS
             .others-options {
                 .optional-btn {
                     color: $black-color;
-                    
+
                     &::before {
                         border-color: $black-color;
                     }
@@ -476,7 +476,7 @@ Navbar Area CSS
             .others-options {
                 .optional-btn {
                     color: $black-color;
-                    
+
                     &::before {
                         border-color: $black-color;
                     }
@@ -618,12 +618,12 @@ Navbar Area CSS
                         top: 15px;
                         opacity: 0;
                         visibility: hidden;
-                        
+
                         li {
                             a {
                                 color: #4a6f8a;
                                 border-bottom: 1px dashed #e5e5e5;
-                                
+
                                 &:hover, &:focus, &.active {
                                     color: $main-color;
                                 }
@@ -633,12 +633,12 @@ Navbar Area CSS
                                 top: 15px;
                                 opacity: 0;
                                 visibility: hidden;
-    
+
                                 li {
                                     a {
                                         color: #4a6f8a;
                                         border-bottom: 1px dashed #e5e5e5;
-    
+
                                         &:hover, &:focus, &.active {
                                             color: $main-color;
                                         }
@@ -648,12 +648,12 @@ Navbar Area CSS
                                         top: 15px;
                                         opacity: 0;
                                         visibility: hidden;
-            
+
                                         li {
                                             a {
                                                 color: #4a6f8a;
                                                 border-bottom: 1px dashed #e5e5e5;
-            
+
                                                 &:hover, &:focus, &.active {
                                                     color: $main-color;
                                                 }
@@ -663,12 +663,12 @@ Navbar Area CSS
                                                 top: 15px;
                                                 opacity: 0;
                                                 visibility: hidden;
-                    
+
                                                 li {
                                                     a {
                                                         color: #4a6f8a;
                                                         border-bottom: 1px dashed #e5e5e5;
-                    
+
                                                         &:hover, &:focus, &.active {
                                                             color: $main-color;
                                                         }
@@ -678,12 +678,12 @@ Navbar Area CSS
                                                         top: 15px;
                                                         opacity: 0;
                                                         visibility: hidden;
-                            
+
                                                         li {
                                                             a {
                                                                 color: #4a6f8a;
                                                                 border-bottom: 1px dashed #e5e5e5;
-                            
+
                                                                 &:hover, &:focus, &.active {
                                                                     color: $white-color;
                                                                     background-color: $main-color;
@@ -694,12 +694,12 @@ Navbar Area CSS
                                                                 top: 15px;
                                                                 opacity: 0;
                                                                 visibility: hidden;
-                                    
+
                                                                 li {
                                                                     a {
                                                                         color: #4a6f8a;
                                                                         border-bottom: 1px dashed #e5e5e5;
-                                    
+
                                                                         &:hover, &:focus, &.active {
                                                                             color: $white-color;
                                                                             background-color: $main-color;
@@ -960,7 +960,7 @@ Navbar Area CSS
                                     font-size: 13.5px;
                                     border: none !important;
                                     padding: 10px 15px;
-        
+
                                     i {
                                         transform: translateY(-50%) rotate(90deg);
                                         right: 0;
@@ -978,7 +978,7 @@ Navbar Area CSS
                                             font-size: 13.5px;
                                             border: none !important;
                                             padding: 10px 15px;
-                
+
                                             i {
                                                 transform: translateY(-50%) rotate(90deg);
                                                 right: 0;
@@ -996,7 +996,7 @@ Navbar Area CSS
                                                     font-size: 13.5px;
                                                     border: none !important;
                                                     padding: 10px 15px;
-                        
+
                                                     i {
                                                         transform: translateY(-50%) rotate(90deg);
                                                         right: 0;
@@ -1014,7 +1014,7 @@ Navbar Area CSS
                                                             font-size: 13.5px;
                                                             border: none !important;
                                                             padding: 10px 15px;
-                                
+
                                                             i {
                                                                 transform: translateY(-50%) rotate(90deg);
                                                                 right: 0;
@@ -1032,7 +1032,7 @@ Navbar Area CSS
                                                                     font-size: 13.5px;
                                                                     border: none !important;
                                                                     padding: 10px 15px;
-                                        
+
                                                                     i {
                                                                         transform: translateY(-50%) rotate(90deg);
                                                                         right: 0;
@@ -1064,7 +1064,7 @@ Navbar Area CSS
 
             .optional-btn {
                 color: $black-color;
-                
+
                 &::before {
                     border-color: $black-color;
                 }
@@ -1414,7 +1414,7 @@ Partner Area CSS
     left: 10%;
     bottom: 10%;
     z-index: -1;
-    
+
     img {
         animation: {
             name: rotateMe;
@@ -1429,7 +1429,7 @@ Partner Area CSS
     left: 25%;
     top: 40%;
     z-index: -1;
-    
+
     img {
         animation: animationFramesOne 20s infinite linear;
     }
@@ -1439,7 +1439,7 @@ Partner Area CSS
     left: 40%;
     bottom: 10%;
     z-index: -1;
-    
+
     img {
         animation: {
             name: rotateMe;
@@ -2080,7 +2080,7 @@ Video Presentation Area CSS
     left: -30px;
     top: -23px;
     z-index: -1;
-    
+
     img {
         animation: {
             name: rotateMe;
@@ -2138,7 +2138,7 @@ Video Presentation Area CSS
     transform: translateY(-40%);
     left: 10%;
     z-index: -1;
-    
+
     img {
         animation: moveBounce 5s linear infinite;
     }
@@ -2177,25 +2177,25 @@ Video Presentation Area CSS
 }
 @keyframes moveBounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveLeftBounce {
     0% {
-        transform: translateX(0); 
+        transform: translateX(0);
     }
     50% {
-        transform: translateX(5px); 
+        transform: translateX(5px);
     }
     100% {
-        transform: translateX(0); 
-    } 
+        transform: translateX(0);
+    }
 }
 @keyframes ripple {
     0% {
@@ -2268,7 +2268,7 @@ FunFacts Area CSS
     border: 1px solid #eeeeee;
     padding: 25px 0;
     border-radius: 5px;
-    
+
     i {
         font-size: 35px;
         color: #13c4a1;
@@ -2322,7 +2322,7 @@ FunFacts Area CSS
         right: 50px;
         top: 50%;
         transform: translateY(-50%);
-        
+
         i {
             color: $white-color;
         }
@@ -2393,7 +2393,7 @@ Features Area CSS
         .icon {
             animation: bounce 2s;
             bottom: 25px;
-            
+
             &::before {
                 right: 0;
                 bottom: 0;
@@ -2497,7 +2497,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #ff612f;
-                
+
                 &::before {
                     border-color: #ff612f;
                 }
@@ -2523,7 +2523,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #080a3c;
-                
+
                 &::before {
                     border-color: #080a3c;
                 }
@@ -2549,7 +2549,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #fc4c86;
-                
+
                 &::before {
                     border-color: #fc4c86;
                 }
@@ -2575,7 +2575,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #ffb300;
-                
+
                 &::before {
                     border-color: #ffb300;
                 }
@@ -2601,7 +2601,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #286efa;
-                
+
                 &::before {
                     border-color: #286efa;
                 }
@@ -2627,7 +2627,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #9c27b0;
-                
+
                 &::before {
                     border-color: #9c27b0;
                 }
@@ -2653,7 +2653,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #3f51b5;
-                
+
                 &::before {
                     border-color: #3f51b5;
                 }
@@ -2679,7 +2679,7 @@ Features Area CSS
         .single-features-box {
             .icon {
                 background-color: #e91e63;
-                
+
                 &::before {
                     border-color: #e91e63;
                 }
@@ -2854,11 +2854,11 @@ Team Area CSS
         padding: 10px;
         position: relative;
         overflow: hidden;
-        border-radius: 10px;
+        border-radius: 20px;
         transition: $transition;
 
         img {
-            border-radius: 10px;
+            border-radius: 20px;
         }
         .social {
             padding-left: 0;
@@ -2893,7 +2893,7 @@ Team Area CSS
                     color: $black-color;
                     border-radius: 2px;
                     transition: $transition;
-    
+
                     i {
                         position: absolute;
                         left: 0;
@@ -3521,7 +3521,7 @@ Pricing Area CSS
 .tab {
     .tabs_item {
         display: none;
-        
+
         &:first-child {
             display: block;
         }
@@ -3589,13 +3589,13 @@ FAQ Area CSS
             margin-bottom: 15px;
             border: none;
             background-color: #f5f5ff;
-        
+
             .accordion-header {
                 padding: 0;
                 margin-bottom: 0;
                 border: none;
                 background: transparent;
-        
+
                 &:first-child {
                     border-radius: 0;
                 }
@@ -3639,7 +3639,7 @@ FAQ Area CSS
                 margin-bottom: 0;
             }
         }
-    }    
+    }
 }
 .faq-image {
     text-align: center;
@@ -3658,7 +3658,7 @@ FAQ Area CSS
                     }
                 }
             }
-        } 
+        }
     }
 }
 
@@ -3839,7 +3839,7 @@ Blog Area CSS
 
         a {
             display: block;
-            
+
             img {
                 transition: $transition;
             }
@@ -3988,12 +3988,12 @@ Blog Details Area CSS
 
         .entry-meta {
             margin-bottom: -8px;
-    
+
             ul {
                 padding-left: 0;
                 margin-bottom: 0;
                 list-style-type: none;
-    
+
                 li {
                     position: relative;
                     display: inline-block;
@@ -4003,7 +4003,7 @@ Blog Details Area CSS
                     a {
                         display: inline-block;
                         color: $paragraph-color;
-    
+
                         &:hover {
                             color: $main-color;
                         }
@@ -4615,7 +4615,7 @@ blockquote, .blockquote {
 Page Title Area CSS
 =================================================*/
 .page-title-area {
-    background-color: $optional-color;
+    background-color: #13c4a1;
     position: relative;
     z-index: 1;
     padding: {
@@ -4818,7 +4818,7 @@ Sidebar Widget Area CSS
     .widget_jexsa_posts_thumb {
         position: relative;
         overflow: hidden;
-        
+
         .item {
             overflow: hidden;
             margin-bottom: 15px;
@@ -5131,7 +5131,7 @@ Login Area CSS
 }
 .login-content {
     height: 100vh;
-    
+
     .login-form {
         text-align: center;
         max-width: 500px;
@@ -5141,7 +5141,7 @@ Login Area CSS
         };
         .logo {
             margin-bottom: 35px;
-            
+
             a {
                 display: inline-block;
             }
@@ -5232,7 +5232,7 @@ Login Area CSS
                     &.facebook {
                         border-color: #3b5998;
                         color: #3b5998;
-                        
+
                         &:hover {
                             background-color: #3b5998;
                             color: $white-color;
@@ -5243,7 +5243,7 @@ Login Area CSS
                         margin-top: 10px;
                         border-color: #EA4335;
                         color: #EA4335;
-                        
+
                         &:hover {
                             background-color: #EA4335;
                             color: $white-color;
@@ -5279,7 +5279,7 @@ Signup Area CSS
 }
 .signup-content {
     height: 100vh;
-    
+
     .signup-form {
         text-align: center;
         max-width: 500px;
@@ -5289,7 +5289,7 @@ Signup Area CSS
         };
         .logo {
             margin-bottom: 40px;
-            
+
             a {
                 display: inline-block;
             }
@@ -5372,7 +5372,7 @@ Signup Area CSS
                     &.facebook {
                         border-color: #3b5998;
                         color: #3b5998;
-                        
+
                         &:hover {
                             background-color: #3b5998;
                             color: $white-color;
@@ -5383,7 +5383,7 @@ Signup Area CSS
                         margin-top: 10px;
                         border-color: #EA4335;
                         color: #EA4335;
-                        
+
                         &:hover {
                             background-color: #EA4335;
                             color: $white-color;
@@ -5600,7 +5600,7 @@ Free Trial Area CSS
     left: 25%;
     bottom: 27%;
     z-index: -1;
-    
+
     img {
         animation: moveBounce 5s linear infinite;
     }
@@ -5647,7 +5647,7 @@ Contact Area CSS
 .contact-features-list {
     padding-right: 15px;
     border-right: 1px solid #eeeeee;
-    
+
     h3 {
         margin-bottom: 12px;
         font: {
@@ -6128,7 +6128,7 @@ SaaS Home Page CSS
 =================================================*/
 .black-btn {
     background-color: $black-color !important;
-    
+
     span {
         background-color: $main-color !important;
     }
@@ -6142,7 +6142,7 @@ SaaS Home Page CSS
     background: $main-color;
     position: relative;
     z-index: 1;
-    
+
     .saas-image {
         &.mt-70 {
             margin-top: 70px;
@@ -6154,7 +6154,7 @@ SaaS Home Page CSS
         position: relative;
 
         h1 {
-            color: $white-color; 
+            color: $white-color;
             font: {
                 size: 52px;
                 weight: 600;
@@ -6428,11 +6428,11 @@ SaaS Home Page CSS
 /* Features inner content */
 .features-inner-content {
     .features-item {
-        position: relative; 
+        position: relative;
         padding-left: 100px;
         margin-bottom: 30px;
         text-align: left;
-        
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -6629,8 +6629,8 @@ SaaS Home Page CSS
         padding: 30px 20px;
         border-radius: 10px;
 
-        
-    
+
+
         .single-info-box {
             -ms-flex: 0 0 20%;
             flex: 0 0 20%;

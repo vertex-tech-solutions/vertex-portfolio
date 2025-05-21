@@ -16,12 +16,13 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { ServicesOneComponent } from './components/pages/services-one/services-one.component';
 import { ServicesTwoComponent } from './components/pages/services-two/services-two.component';
 import { ServicesDetailsComponent } from './components/pages/services-details/services-details.component';
-import { FeaturesOneComponent } from './components/pages/features-one/features-one.component';
 import { FeaturesTwoComponent } from './components/pages/features-two/features-two.component';
 import { BlogGridComponent } from './components/pages/blog-grid/blog-grid.component';
 import { BlogRightSidebarComponent } from './components/pages/blog-right-sidebar/blog-right-sidebar.component';
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ChattingComponent } from './components/common/chatting/chatting.component';
+import { HomeFourComponent } from './components/home-four/home-four.component';
+import { ProjectsComponent } from './components/pages/Projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ChattingComponent } from './components/common/chatting/chatting.compone
     NavbarComponent,
     PreloaderComponent,
     HomeTwoComponent,
+    HomeFourComponent,
     FooterComponent,
     AboutComponent,
     TeamComponent,
@@ -38,7 +40,7 @@ import { ChattingComponent } from './components/common/chatting/chatting.compone
     ServicesOneComponent,
     ServicesTwoComponent,
     ServicesDetailsComponent,
-    FeaturesOneComponent,
+    ProjectsComponent,
     FeaturesTwoComponent,
     BlogGridComponent,
     BlogRightSidebarComponent,
