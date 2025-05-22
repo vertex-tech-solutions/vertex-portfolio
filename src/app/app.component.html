@@ -1,4 +1,7 @@
-<app-preloader></app-preloader>
-<app-navbar *ngIf="!(location == '/error' || location == '/log-in' || location == '/sign-up')"></app-navbar>
-<router-outlet></router-outlet>
-<app-footer *ngIf="!(location == '/error' || location == '/log-in' || location == '/sign-up')"></app-footer>
+  <div class="zoom-wrapper">
+    <app-preloader></app-preloader>
+    <app-navbar *ngIf="!(location == '/error' || location == '/log-in' || location == '/sign-up')"></app-navbar>
+    <router-outlet></router-outlet>
+    <app-footer *ngIf="!(location == '/error' || location == '/log-in' || location == '/sign-up')"></app-footer>
+  </div>
+

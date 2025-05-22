@@ -10,58 +10,26 @@
 <section class="features-area pt-100 pb-70 bg-f4f6fc">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-conversation'></i>
-                    </div>
-                    <h3>Simplify Communication</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-customize'></i>
-                    </div>
-                    <h3>Drag and Drop Widgets</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-slider-alt'></i>
-                    </div>
-                    <h3>Quick Setup</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-reset'></i>
-                    </div>
-                    <h3>Automatise Chatbots</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-bell'></i>
-                    </div>
-                    <h3>Automated Reminders</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-features-box">
-                    <div class="icon">
-                        <i class='bx bx-shape-circle'></i>
-                    </div>
-                    <h3>Machine Learning</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.</p>
+            <div
+                class="col-lg-4 col-md-6"
+                *ngFor="let project of Projects; let i = index"
+            >
+                <div class="features-box-one">
+                    <img [src]="project.imgs[0]" class="project-img" />
+                    <h3>{{ project.TItle }}</h3>
+                    <p [innerHTML]="project.Description"></p>
+                    <ul
+                        class="proyect-skills"
+                    >
+                        <li
+                            *ngFor="let technology of project.Technologies"
+                            class="ml-3"
+                        >
+                            <span class="technology">{{
+                                technology
+                            }}</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -75,9 +43,13 @@
         </div>
         <div class="feedback-slides owl-carousel owl-theme">
             <div class="single-feedback-item">
-                <img src="assets/img/woman1.png" alt="image">
+                <img src="assets/img/woman1.png" alt="image" />
                 <div class="feedback-desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Quis ipsum suspendisse.
+                    </p>
                     <div class="rating">
                         <i class="bx bxs-star"></i>
                         <i class="bx bxs-star"></i>
@@ -92,9 +64,13 @@
                 </div>
             </div>
             <div class="single-feedback-item">
-                <img src="assets/img/woman2.png" alt="image">
+                <img src="assets/img/woman2.png" alt="image" />
                 <div class="feedback-desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Quis ipsum suspendisse.
+                    </p>
                     <div class="rating">
                         <i class="bx bxs-star"></i>
                         <i class="bx bxs-star"></i>
@@ -109,9 +85,13 @@
                 </div>
             </div>
             <div class="single-feedback-item">
-                <img src="assets/img/man1.png" alt="image">
+                <img src="assets/img/man1.png" alt="image" />
                 <div class="feedback-desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Quis ipsum suspendisse.
+                    </p>
                     <div class="rating">
                         <i class="bx bxs-star"></i>
                         <i class="bx bxs-star"></i>
@@ -133,12 +113,25 @@
     <div class="container">
         <div class="free-trial-content">
             <h2>We always try to be the best support to you as possible</h2>
-            <p>Qualify your leads & recognize the value of word your customer will love you</p>
-            <a routerLink="/contact" class="default-btn"><i class="bx bxs-hot"></i> Contact Us<span></span></a>
+            <p>
+                Qualify your leads & recognize the value of word your customer
+                will love you
+            </p>
+            <a routerLink="/contact" class="default-btn"
+                ><i class="bx bxs-hot"></i> Contact Us<span></span
+            ></a>
         </div>
     </div>
-    <div class="shape10"><img src="assets/img/shape/shape10.png" alt="image"></div>
-    <div class="shape11"><img src="assets/img/shape/shape7.png" alt="image"></div>
-    <div class="shape12"><img src="assets/img/shape/shape11.png" alt="image"></div>
-    <div class="shape13"><img src="assets/img/shape/shape12.png" alt="image"></div>
+    <div class="shape10">
+        <img src="assets/img/shape/shape10.png" alt="image" />
+    </div>
+    <div class="shape11">
+        <img src="assets/img/shape/shape7.png" alt="image" />
+    </div>
+    <div class="shape12">
+        <img src="assets/img/shape/shape11.png" alt="image" />
+    </div>
+    <div class="shape13">
+        <img src="assets/img/shape/shape12.png" alt="image" />
+    </div>
 </section>

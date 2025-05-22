@@ -3,6 +3,7 @@ import { Router, NavigationStart, NavigationCancel, NavigationEnd } from '@angul
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { filter } from 'rxjs/operators';
 declare let $: any;
+declare var WOW: any;
 
 @Component({
     selector: 'app-root',
@@ -23,6 +24,7 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit(){
+          new WOW().init();
         this.recallJsFuntions();
     }
 

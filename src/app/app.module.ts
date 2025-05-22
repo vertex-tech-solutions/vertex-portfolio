@@ -23,6 +23,7 @@ import { BlogDetailsComponent } from './components/pages/blog-details/blog-detai
 import { ChattingComponent } from './components/common/chatting/chatting.component';
 import { HomeFourComponent } from './components/home-four/home-four.component';
 import { ProjectsComponent } from './components/pages/Projects/projects.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { ProjectsComponent } from './components/pages/Projects/projects.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
