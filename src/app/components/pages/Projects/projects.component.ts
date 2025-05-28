@@ -8,18 +8,6 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class ProjectsComponent implements OnInit {
 
-
-  customOptions: OwlOptions = {
-    loop: true,
-    mouseDrag: true,
-    touchDrag: true,
-    pullDrag: false,
-    navSpeed: 700,
-    items: 1,
-    autoplay: true,
-    autoplayTimeout:3000
-  }
-
  Projects = [
   {
     Title: "Inboxwave.com",
@@ -34,7 +22,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/inboxwave/inbx7.png",
       "assets/img/inboxwave/inbx8.png"
     ],
-    Technologies: ["Springboot", "Angular", "RxJS"]
+    Technologies: ["Springboot", "Angular", "RxJS"],
+    link: ""
   },
   {
     Title: "LLM Sermon Platform",
@@ -49,7 +38,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/llm-sermon/llm-7.png",
       "assets/img/llm-sermon/llm-8.png"
     ],
-    Technologies: ["Next.JS", "React", "SASS", "Material Ui", "Fast Api"]
+    Technologies: ["Next.JS", "React", "SASS", "Material Ui", "Fast Api"],
+    link: ''
   },
   {
     Title: "Tabcode SAAS",
@@ -60,7 +50,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/tabcode/page 3.png",
       "assets/img/tabcode/page 4.png"
     ],
-    Technologies: ["Angular", "Node", "Angular Material", "RxJS"]
+    Technologies: ["Angular", "Node", "Angular Material", "RxJS"],
+    link: ""
   },
   {
     Title: "Hope for Children",
@@ -73,7 +64,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/hope/page5.png",
       "assets/img/hope/page6.png"
     ],
-    Technologies: ["React", "Redux", ".Net", "MongoDB", "Material UI"]
+    Technologies: ["React", "Redux", ".Net", "MongoDB", "Material UI"],
+    link: "https://hopeforchildren.onrender.com/"
   },
   {
     Title: "Awan Awalia",
@@ -86,7 +78,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/awalia/awan5.png",
       "assets/img/awalia/awan6.png"
     ],
-    Technologies: ["Next.JS", "Nest.JS", "Node", "PostgreSQL"]
+    Technologies: ["Next.JS", "Nest.JS", "Node", "PostgreSQL"],
+    link: 'https://excw-admin.vercel.app/'
   },
   {
     Title: "Chain Docs",
@@ -96,7 +89,8 @@ export class ProjectsComponent implements OnInit {
       "assets/img/chain-docs/chd2.png",
       "assets/img/chain-docs/chd3.png"
     ],
-    Technologies: ["Nest.JS", "Node", "SASS", "express", "Material ui"]
+    Technologies: ["Nest.JS", "Node", "SASS", "express", "Material ui"],
+    link: 'https://document-validation.onrender.com/'
   },
   {
     Title: "IMIS (Integrated Management Information System)",
@@ -104,7 +98,8 @@ export class ProjectsComponent implements OnInit {
     imgs: [
       "assets/img/imis.png"
     ],
-    Technologies: ["Angular", "SASS", "Angular Material", ".Net"]
+    Technologies: ["Angular", "SASS", "Angular Material", ".Net"],
+    link: "https://imis.ifa.gov.et/"
   }
 ];
 

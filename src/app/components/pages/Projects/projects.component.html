@@ -14,23 +14,19 @@
                 class="col-lg-4 col-md-6"
                 *ngFor="let project of Projects; let i = index"
             >
-                <div class="features-box-one">
-                    <img [src]="project.imgs[0]" class="project-img" />
-                    <h3>{{ project.TItle }}</h3>
-                    <p [innerHTML]="project.Description"></p>
-                    <ul
-                        class="proyect-skills"
-                    >
-                        <li
-                            *ngFor="let technology of project.Technologies"
-                            class="ml-3"
-                        >
-                            <span class="technology">{{
-                                technology
-                            }}</span>
-                        </li>
-                    </ul>
-                </div>
+               <a [href]="project.link" target="_blank" class="features-box-one-link">
+    <div class="features-box-one">
+        <img [src]="project.imgs[0]" class="project-img" />
+        <h3>{{ project.TItle }}</h3>
+        <p [innerHTML]="project.Description"></p>
+        <ul class="proyect-skills">
+            <li *ngFor="let technology of project.Technologies" class="ml-3">
+                <span class="technology">{{ technology }}</span>
+            </li>
+        </ul>
+    </div>
+</a>
+
             </div>
         </div>
     </div>
