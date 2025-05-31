@@ -9,11 +9,11 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class ProjectsComponent implements OnInit {
 
  Projects = [
-  {
-    Title: "Inboxwave.com",
-    Description: "Inboxwave is an AI-powered messaging platform that automates Instagram DMs for creators, influencers, and brands. It simplifies audience engagement through smart, scalable conversations.",
+      {
+    Title: "Tammwe",
+    Description: "Tammwe is a marketplace that provides a trust-driven platform for freelancers and businesses to discover, connect, collaborate, and transact with each other.",
     imgs: [
-      "assets/img/inboxwave/inbx1.png",
+      "assets/img/tammwe.png",
       "assets/img/inboxwave/inbx2.png",
       "assets/img/inboxwave/inbx3.png",
       "assets/img/inboxwave/inbx4.png",
@@ -22,7 +22,7 @@ export class ProjectsComponent implements OnInit {
       "assets/img/inboxwave/inbx7.png",
       "assets/img/inboxwave/inbx8.png"
     ],
-    Technologies: ["Springboot", "Angular", "RxJS"],
+    Technologies: ["NextJS", "Reduc"],
     link: ""
   },
   {
@@ -41,18 +41,18 @@ export class ProjectsComponent implements OnInit {
     Technologies: ["Next.JS", "React", "SASS", "Material Ui", "Fast Api"],
     link: ''
   },
-  {
-    Title: "Tabcode SAAS",
-    Description: "A complete SaaS solution for restaurants with Customer, Admin, and Restaurant modules. Built using Angular and Node.js, it ensures efficient service management and scalability.",
-    imgs: [
-      "assets/img/tabcode/page 1.png",
-      "assets/img/tabcode/page 2.png",
-      "assets/img/tabcode/page 3.png",
-      "assets/img/tabcode/page 4.png"
-    ],
-    Technologies: ["Angular", "Node", "Angular Material", "RxJS"],
-    link: ""
-  },
+//   {
+//     Title: "Tabcode SAAS",
+//     Description: "A complete SaaS solution for restaurants with Customer, Admin, and Restaurant modules. Built using Angular and Node.js, it ensures efficient service management and scalability.",
+//     imgs: [
+//       "assets/img/tabcode/page 1.png",
+//       "assets/img/tabcode/page 2.png",
+//       "assets/img/tabcode/page 3.png",
+//       "assets/img/tabcode/page 4.png"
+//     ],
+//     Technologies: ["Angular", "Node", "Angular Material", "RxJS"],
+//     link: ""
+//   },
   {
     Title: "Hope for Children",
     Description: "A donation and storytelling platform for a children's charity. Built with React and .NET, it shares impactful stories and accepts online donations via Chapa integration.",
